@@ -1,0 +1,23 @@
+    $color-white: #ffffff;
+    $color-blue: #0000ff;
+    $fontColor: $color-white;
+    $backColor: #051146;
+    $backColorTransparance: #051146c0;
+
+    
+    @mixin tablet {
+        @media only screen and (max-width: 765px) {
+            @content
+        }
+        
+    };
+
+    @mixin desktop {
+        @media only screen and (min-width: 1000px) {
+            @content
+        }
+        
+    };
+
+
+
